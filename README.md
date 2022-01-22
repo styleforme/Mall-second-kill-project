@@ -33,7 +33,7 @@ Token认证：JWT
 快速开始
 -
 
-创建 MySQL 数据库seckill-sql，并执行初始化表数据
+创建 MySQL 数据库seckill，并执行初始化表数据
 修改配置信息blog-api/src/main/resources/application-dev.properties
 安装 Redis 并启动
 启动后端服务
