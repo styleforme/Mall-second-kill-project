@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>牛客秒杀</title>
+    <link rel="icon" href="https://static.nowcoder.com/images/logo_87_87.png">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/seckill.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.nowcoder.com" target="_blank">牛客网</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="javascript:void(0);">秒杀专区 <span class="sr-only">(current)</span></a></li>
+            <li><a href="register.html">个人注册</a></li>
+            <li><a href="login.html">账户登录</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="user-info">
+            <li class="dropdown">
+              <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="user-name"></i> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript:void(0);" id="btn-logout">注销</a></li>
+              </ul>
+            </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row goods-list"></div>
+    </div>
+
+    <script src="./bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/user.js"></script>
+    <script src="./js/seckill.js"></script>
+  </body>
+</html>

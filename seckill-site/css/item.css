@@ -1,0 +1,56 @@
+body {
+    background: #fff;
+}
+
+.goods-left>img {
+    width: 90%;
+}
+
+.goods-right {
+    background-color: #f3f3f3;
+}
+
+.goods-right>div {
+    margin-top: 15px;
+}
+
+.goods-detail {
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+}
+
+.goods-title {
+    font: 700 16px Arial,"microsoft yahei";
+    color: #666;
+    padding-top: 10px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.seckill-price span {
+    color: #e4393c;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+}
+
+.seckill-price b {
+    color: #e4393c;
+    font-family: "microsoft yahei";
+    font-size: 24px;
+}
+
+.goods-detail .row {
+    margin-top: 15px;
+}
+
+.goods-parameter>div {
+    margin-bottom: 5px;
+}
+
+.goods-parameter .brand {
+    margin-bottom: 15px;
+}
+
+.goods-pictures {
+    margin-bottom: 15px;
+}
