@@ -33,9 +33,18 @@ Token认证：JWT
 快速开始
 -
 
-创建 MySQL 数据库seckill，并执行初始化表数据
-修改配置信息blog-api/src/main/resources/application-dev.properties
+Winows部署
+
+创建 MySQL 数据库seckill，并执行Mall-second-kill-projects/sql/seckill-data初始化表数据
+
+修改配置信息Mall-second-kill-projects/seckill/src/main/resources/applition-dev
+
 安装 Redis 并启动
+
+安装RocketMQ并启动
+
 启动后端服务
-分别在blog-cms和blog-view目录下执行npm install安装依赖
-分别在blog-cms和blog-view目录下执行npm run serve启动前后台页面
+
+启动前端服务：VSCode打开seckill-site文件夹，在终端输入npm install命令安装依赖，输入npm run serve启动服务
+
+
